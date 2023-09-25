@@ -1,7 +1,7 @@
 import { Stack } from '@mui/material'
 import React from 'react'
 
-const Layout = ({sx={}, ...props}) => {
+const FixedWidth = ({sx={}, ...props}) => {
     const css = {
       maxWidth:"1000px",
       padding:"10px",
@@ -12,8 +12,9 @@ const Layout = ({sx={}, ...props}) => {
     return (
     <>
       <Stack sx={css}  {...props} />
+      
     </>
   )
 }
 
-export default Layout
+export default FixedWidth;
