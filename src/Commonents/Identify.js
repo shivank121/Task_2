@@ -9,16 +9,21 @@ const Identify = () => {
        <Box sx={{
         // width:"100vw",
         // height:"100vh"
+        mt:"40px",
+        mb:"40px"
        }}>
         <FixedWidth sx={{
         }} >
-            <Grid container spacing={0} >
+            <Grid container spacing={0} sx={{padding:{xs:"",sm:"",md:"40px"}}} >
 
                 <Grid item xs={12} sm={6} md={6} sx={{
-                    display:"flex",justifyContent:"flex-end"
+                    display:"flex",justifyContent:"flex-end",
+                    margin:{xs:"20px", sm:"0px", md:"0px"}
                 }} >
-                    <Stack>
-                        <img style={{maxWidth:"400px",}} src={image} alt='not loaded' />
+                    <Stack sx={{
+                        maxWidth:{xs:"330px", sm:"330px", md:"400px"}
+                    }} >
+                        <img src={image} alt='not loaded' />
                     </Stack>
 
                 </Grid>
@@ -26,8 +31,14 @@ const Identify = () => {
 
                 <Grid item xs={12} sm={6} md={6} >
 
-                <Stack sx={{maxWidth:"340px",}} >
-                    <Typography variant='h4' sx={{color:"#25A69A", fontWeight:"bold", marginBottom:"40px"}} >
+                <Stack sx={{  
+                    maxWidth:{xs:"340px", md:"376px" },
+                    textAlign:"justify"
+                    
+                    }} >
+                    <Typography variant='h4' sx={{color:"#25A69A", 
+                    fontWeight:{xs:"100", sm:"600", md:"700"}, 
+                    marginBottom:"24px"}} >
                         <span style={{color:"black"}}> Identify any item </span> <br/>  and get related info. on your phone
                     </Typography>
 

@@ -14,20 +14,11 @@ const Banner = () => {
             backgroundImage:`url(${backImg})`,
             backgroundSize:{xs:"100% auto", sm:"100% auto", md:"100% auto"},
             backgroundOrigin:"border-box",
-            // backgroundPosition:"center",
             backgroundRepeat:"no-repeat",
-            height:"100vh",
-            // height:{xs:"100vh",md:"calc(100vh-150px)"},
-            paddingBottom:{ xs:"200px", sm:"150px" ,md:"80px"},
+            height:{xs:"32vh", sm:"65vh", md:"100vh"},
+            paddingBottom:{xs:"0px", sm:"0px", md:"100px"}
             
-            // marginTop:{xs:"0px", md:"70px"},
-            // marginBottom:{xs:"", sm:"", md:"100px" },
-
-
-            // height:{xs:"", sm:"", md:"calc(100vh-60px)"},
-            // display:"flex",
-            // justifyContent:"center",
-            // alignItems:"center"
+           
       
       }} >
             <FixedWidth>

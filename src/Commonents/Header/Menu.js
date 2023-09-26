@@ -15,7 +15,7 @@ const Header = () => {
       }} >
             {/* <Layout> */}
                   <Grid container spacing={0} >
-                        <Grid item xs={4} sm={6} md={6} >
+                        <Grid item xs={6} sm={6} md={6} >
                               <Stack sx={{ textAlign:"center"}}  >
                                     <Typography variant='h6' sx={{
                                           color:"#707070",
@@ -26,10 +26,13 @@ const Header = () => {
                               </Stack>
                         </Grid>
 
-                        <Grid item xs={8} sm={6} md={6} sx={{
-                              display:"flex", justifyContent:"center", alignItems:"center"
+                        <Grid item xs={6} sm={6} md={6} sx={{
                               }} >
                         <Box sx={{
+                              display:"flex", 
+                              // justifyContent:"center", 
+                              //  alignItems:"center",
+                              // maxWidth:"200px"
                               
                               // display:"flex",
                               // justifyContent:"space-around",

@@ -7,6 +7,7 @@ const FixedWidth = ({sx={}, ...props}) => {
       padding:"10px",
       TextAlign:"center",
       margin:"0 auto",
+
       ...sx
     }
     return (
