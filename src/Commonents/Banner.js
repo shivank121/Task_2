@@ -15,8 +15,8 @@ const Banner = () => {
             backgroundSize:{xs:"100% auto", sm:"100% auto", md:"100% auto"},
             backgroundOrigin:"border-box",
             backgroundRepeat:"no-repeat",
-            height:{xs:"32vh", sm:"65vh", md:"100vh"},
-            paddingBottom:{xs:"0px", sm:"0px", md:"100px"}
+            height:{xs:"12vh", sm:"30vh", md:"100vh", xl:"10S0vh"},
+            paddingBottom:{xs:"10px", sm:"0px", md:"90px", xl:"70px"}
             
            
       
@@ -25,7 +25,7 @@ const Banner = () => {
             
             <Box sx={{
                   position:{md:"absolute", xs:"absolute", sm:"absolute"},
-                  top:{xs:"10%" , sm:"13%" , md:"38%" },
+                  top:{xs:"5%" , sm:"13%" , md:"38%", xl:"45%" },
                   left:{ xs:"10%", sm:"10%" ,md:"26%"},
             }}  >
              

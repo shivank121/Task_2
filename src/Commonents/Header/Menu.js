@@ -14,13 +14,14 @@ const Header = () => {
             padding:"6px"
       }} >
             {/* <Layout> */}
-                  <Grid container spacing={0} >
+                  <Grid container spacing={1} >
                         <Grid item xs={6} sm={6} md={6} >
                               <Stack sx={{ textAlign:"center"}}  >
                                     <Typography variant='h6' sx={{
                                           color:"#707070",
                                           fontWeight:"bold",
-                                          fontSize:{xs:"17px", sm:"20px", md:"20px"}
+                                          fontSize:{xs:"17px", sm:"20px", md:"20px"},
+                                          marginRight:"150px"
 
                                     }}>  Object Detection</Typography>
                               </Stack>
@@ -30,7 +31,7 @@ const Header = () => {
                               }} >
                         <Box sx={{
                               display:"flex", 
-                              // justifyContent:"center", 
+                              justifyContent:"center", 
                               //  alignItems:"center",
                               // maxWidth:"200px"
                               
